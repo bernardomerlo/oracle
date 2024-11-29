@@ -69,12 +69,12 @@ Este projeto é um sistema de gerenciamento de barbearia que permite agendar cor
 
 2. Configure o banco de dados:
 
-   - Crie um banco de dados MySQL.
-   - Importe o arquivo `database.sql` para criar as tabelas necessárias.
+   - Crie um banco de dados Oracle.
+   - Importe o arquivo `oracle_seed.sql` para criar as tabelas necessárias.
 
 3. Configure a conexão com o banco de dados:
 
-   - Edite o arquivo [`config/Database.php`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fc%3A%2Fxampp%2Fhtdocs%2Fbarbearia%2Fconfig%2FDatabase.php%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\\xampp\htdocs\barbearia\config\Database.php") com as informações do seu banco de dados, como host, username e password
+   - Edite o arquivo [`config/OracleDb.php`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fc%3A%2Fxampp%2Fhtdocs%2Fbarbearia%2Fconfig%2FDatabase.php%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\\xampp\htdocs\barbearia\config\Database.php") com as informações do seu banco de dados, como host, username e password
 
 4. Inicie o servidor web e acesse o projeto pelo navegador:
    ```sh
